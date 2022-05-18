@@ -1,0 +1,54 @@
+HTML LISTS
+
+HTML offers users three ways to format the data in form of lists.All lists must contain atleast one list element.
+The three types of lists are
+1.Unordered lists
+2.Ordered lists
+3.Definition or description lists
+
+1.Unordered lists
+	
+	: It is a list of related items or data that has no particular order or sequence.
+	: Each list item is marked with a bullet 
+	: Represented with tag <ul>list item </ul>.
+	: Unordered lists have attribute type that gives option of styling the bullet.
+	
+	Attribute: 
+	
+	: <ul type = "square"> for square shaped bullet
+	: <ul type = "circle"> for circle shaped bullet
+    : <ul type = "disc"> for disc shaped bullet
+	
+
+2.Ordered Lists
+ 
+  : It is a list of related items or content in sequenctial  or numbered order.
+  : If user wants to list items according to particular order then ordered lists are used.
+  : First item of the list is numbered as one and incremented by one each number for the rest of the items.
+  : Represented with tag <ol>list item </ol>.
+  
+  Attribute:
+  
+  : <ol type = "1" > for numbered list
+  : <ol type = "I" > for uppercase roman numerals
+  : <ol type = "i" > for lowercase roman numerals
+  : <ol type = "a" > for lowercase alphabetical order
+  : <ol type = "A" > for uppercase alphabetical order
+  
+3.Definition/Description Lists
+
+  : It is a list style where the entries are arranged as in a dictionary or encyclopedia.
+  : It represents a term and a relevant description in the form of lists.
+  : It is used mostly for glossary, terms and condtions.
+  :Format of the tags is shown below
+    
+   	<dl> --> start of the list
+    <dt> -->a term
+	<dd> term definition/description </dd>
+	</dt>
+	 :
+	 :
+	</dl> -->end of the tag
+
+
+	
