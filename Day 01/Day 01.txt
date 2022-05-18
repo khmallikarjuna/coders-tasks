@@ -35,6 +35,7 @@ some attributes require some additional inormation like <img> require <src> and 
 
   #General purpose attributes: id,class,style,etc,.
   #Global attributes : These are common to all the elements.
+  #Element specific : <src>,<href>,etc,.
   
 					TAGS
 
