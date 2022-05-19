@@ -1,0 +1,36 @@
+HTML FORMS
+HTML forms are used to collect information from the user and send to the back-end server. The back-end serve processes the information according to the given logic.
+The forms collect information such as name,mail id,mobile number,passwords,etc.
+
+There are various elements in forms such as text area,radio buttons,dropdowns,checkboxes,etc.
+
+#Form attributes
+->action = Backend script ready to process the passed data/information
+->method = used to upload data. most frequently used are GET and POST methods
+->target = Specifies the target window where the result will be displayed in same tab or new.
+->enctype= you can specify how the browser encodes the data before sending to the backend.
+
+#Form controls
+There are different types of form controls through which users can collect user data.
+->Text input 
+->checkboxes
+->Radiobox
+->Select box
+->file select
+->submit and reset controls
+->clickable controls,etc
+
+#Attributes for controls
+->type=Indicates the type of input control and for text input control it will be set to text.
+
+->name=Used to give a name to the control which is sent to the server to be recognized and get the value
+
+->value=This can be used to provide an initial value inside the control.
+
+->size=Allows to specify the width of the text-input control in terms of characters.
+
+->maxlength=Allows to specify the maximum number of characters a user can enter into the text box.
+
+->checked=Set to checked if you want to select it by default.
+
+->multiple=If set to "multiple" then allows a user to select multiple items from the menu.
